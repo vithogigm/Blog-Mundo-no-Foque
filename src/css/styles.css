@@ -1,0 +1,120 @@
+
+.navegacao {
+    display: flex;
+    background-color: aqua;
+    
+    box-sizing: border-box;
+    
+}
+
+
+.botao-indice {
+    background-color: aquamarine;
+    width: 25%;
+    margin: 1%;
+    padding: 2%;
+
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+h1 {
+    display: flex;
+    margin: 5% 0;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 50px;
+}
+
+p {
+    margin: 2% 20%;
+
+}
+
+.Lista_de_ideias { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+    
+    margin: 0 15%;
+
+}
+
+
+.Quadros{ 
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 40%;
+}
+
+.formulario__Botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 8%;
+    padding: 5px;
+}
+
+.formulario__Botao {
+    padding: 1% 4%;
+    color: white;
+    border-style: hidden;
+}
+
+.formulario__Botoes_Botao_Enviar {
+    background-color:greenyellow ;
+}
+
+.formulario__Botoes_Botao_Salvar {
+    background-color:lightblue ;
+}
+
+img {
+
+    width: 50%;
+    margin: 0 25%;
+    margin-bottom: 2%;
+    border-radius: 50px;
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 32, 32);
+
+    padding: 2%;
+}
+
+.socialMidia {
+    box-sizing: content-box;
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    padding: 4px 20px;
+
+    height: 50%;
+    width: 90%;
+    
+}
+
+.img_social_midia {
+    height: 25px;
+    border-radius: 5px;
+    width: 25px;
+    padding: 5px 0;
+
+    margin: 5px;
+}
